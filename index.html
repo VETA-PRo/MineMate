@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#263d2b">
+  <title>MineMate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">⛏️ MineMate</div>
+    <p>マインクラフト攻略図鑑</p>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <p class="eyebrow">YOUR MINECRAFT COMPANION</p>
+      <h1>冒険の知識を、<br>ここに集めよう。</h1>
+      <p>アイテム・レシピ・モブの情報をチェック！</p>
+    </section>
+
+    <section class="search">
+      <label for="searchInput">アイテムを検索</label>
+      <input id="searchInput" type="search"
+        placeholder="例：ダイヤモンド">
+    </section>
+
+    <section>
+      <h2>📦 アイテム図鑑</h2>
+      <div id="itemList" class="item-list"></div>
+    </section>
+
+    <section class="tip">
+      <h2>💡 今日のミニTips</h2>
+      <p>たいまつを持って、暗い洞窟を安全に探検しよう！</p>
+    </section>
+  </main>
+
+  <footer>MineMate · Minecraft Java Edition向け</footer>
+  <script src="app.js"></script>
+</body>
+</html>
